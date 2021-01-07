@@ -1,0 +1,18 @@
+// Buttons
+
+.button {
+  appearance: none;
+  font-weight: bold;
+  text-align: center;
+  border: 1px;
+  border-radius: 4px;
+  border-style: solid;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+
+  &:active,
+  &:focus {
+    color: inherit;
+  }
+}
